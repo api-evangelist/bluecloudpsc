@@ -1,8 +1,25 @@
 aid: bluecloudpsc
-name: Bluecloudpsc
-description: 'Bluecloudpsc is a company surfaced as a portfolio company of norwest-venture-partners and
-  added to the API Evangelist network as a stub for enrichment. Sector: unknown. This profile is a lead
-  awaiting the enrichment pipeline.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bluecloudpsc.png
+name: Blue Cloud Pediatric Surgery Centers
+description: 'Blue Cloud Pediatric Surgery Centers operates accredited ambulatory surgery centers
+  specializing in pediatric and special-needs dental and oral surgery care delivered under general
+  anesthesia. Positioning itself as the largest pediatric surgery center company in the United States,
+  Blue Cloud partners with dentists and payors across multiple U.S. locations with a mission to expand
+  access to care, exemplify safety and quality, and reduce costs to patients and payors. Headquartered
+  in The Woodlands, Texas, the company is a portfolio company of Norwest Venture Partners. Blue Cloud is
+  a healthcare services provider and does not publish any public developer API, SDK, or documentation
+  surface; this profile is maintained for network identity and demand-side coverage.'
 url: https://raw.githubusercontent.com/api-evangelist/bluecloudpsc/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +29,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
-- Unknown
+- Healthcare
+- Pediatric
+- Dental
+- Oral Surgery
+- Ambulatory Surgery Center
+- Anesthesia
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +45,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/bluecloudpsc-domain-security.yml
 - type: Website
   url: https://bluecloudpsc.com
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
